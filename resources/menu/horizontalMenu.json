@@ -1,0 +1,95 @@
+{
+  "menu": [
+    {
+      "name": "Dashboards",
+      "url": "dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Users",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "url": "app/user/list",
+      "slug": "app-user-list"
+    },
+    {
+      "name": "Posts Details",
+      "icon": "menu-icon tf-icons bx bx-image",
+      "slug": "allpost-list",
+      "submenu": [
+        {
+          "url": "allpost-list",
+          "name": "All Posts",
+          "slug": "allpost-list"
+        },
+        {
+          "url": "comments-list",
+          "name": "Comments",
+          "slug": "comments-list"
+        }
+      ]
+    },
+    {
+      "name": "Followers-Following",
+      "icon": "menu-icon tf-icons bx bx-user-pin",
+      "url": "socialmates-list",
+      "slug": "socialmates-list"
+    },
+    {
+      "name": "Reports",
+      "icon": "menu-icon tf-icons bx bx-flag",
+      "slug": "postreport-list",
+      "submenu": [
+        {
+          "url": "postreport-list",
+          "name": "Posts Reported",
+          "slug": "postreport-list"
+        },
+        {
+          "url": "userreport-list",
+          "name": "Users Reported",
+          "slug": "userreport-list"
+        }
+      ]
+    },
+    {
+      "name": "Notifications",
+      "icon": "menu-icon tf-icons bx bx-bell",
+      "slug": "notifications-list",
+      "submenu": [
+        {
+          "url": "notifications-add",
+          "name": "Push Notification",
+          "slug": "notifications-add"
+        },
+        {
+          "url": "notifications-list",
+          "name": "View Notification",
+          "slug": "notifications-list"
+        }
+      ]
+    },
+    {
+      "name": "Settings",
+      "icon": "menu-icon tf-icons bx bx-cog",
+      "slug": "notificationkey-add",
+      "submenu": [
+        {
+          "url": "notificationkey-add",
+          "name": "Notification Key",
+          "slug": "notificationkey-add"
+        },
+        {
+          "url": "privacypolicy-add",
+          "name": "Privacy Policy",
+          "slug": "privacypolicy-add"
+        },
+        {
+          "url": "termcondition-add",
+          "name": "Terms & Conditions",
+          "slug": "termcondition-add"
+        }
+      ]
+    }
+  ]
+}

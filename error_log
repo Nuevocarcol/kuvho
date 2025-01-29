@@ -1,0 +1,4 @@
+[27-Mar-2024 08:41:22 UTC] PHP Fatal error:  Trait "Laravel\Passport\HasApiTokens" not found in /home2/theprcjd/snapta.theprimocys.com/app/Models/User.php on line 11
+[27-Mar-2024 12:04:38 UTC] PHP Fatal error:  Trait "Laravel\Passport\HasApiTokens" not found in /home2/theprcjd/snapta.theprimocys.com/app/Models/User.php on line 11
+[27-Mar-2024 12:04:46 UTC] PHP Fatal error:  Trait "Laravel\Passport\HasApiTokens" not found in /home2/theprcjd/snapta.theprimocys.com/app/Models/User.php on line 11
+[27-Mar-2024 12:05:32 UTC] PHP Fatal error:  Trait "Laravel\Passport\HasApiTokens" not found in /home2/theprcjd/snapta.theprimocys.com/app/Models/User.php on line 11

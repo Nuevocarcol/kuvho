@@ -1,0 +1,35 @@
+#Estandar
+/node_modules
+/public/hot
+# /public/storage
+/storage/*.key
+/vendor
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+#Otros
+.env.backup
+/public/build
+.env
+.env.production
+auth.json
+/package-lock.json
+yarn.lock
+package-lock.log
+/.phpunit.cache
+/config/firebase_credentials.json
+
+# /public/css
+# /public/js
+# /public/mix-manifest.json
+# But not these files...
+# !/public/assets/*
+# /public/assets/js
+# /public/assets/css
+# /public/assets/vendor
